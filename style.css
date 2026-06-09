@@ -1,0 +1,43 @@
+body{
+}
+div{
+    border: solid black 0.2em;
+}
+
+header{
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    margin-right: 20px;
+    gap: 20px;
+    justify-content: end;
+}
+button{
+    font-size: 20px;
+}
+.saludo-box{
+
+    padding: 200px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.saludo{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30em;
+}
+
+.proyectos{
+    display: flex;
+    flex-direction: row;
+}
+#container{
+    padding: 20px;
+    margin: 2em;
+    height: 200px;
+    width: 40em;
+}
