@@ -1,5 +1,8 @@
-body{
+/*Animación de deslizado*/
+html {
+  scroll-behavior: smooth;
 }
+/*Provisorio, para ver los div2*/
 div{
     border: solid black 0.2em;
 }
@@ -15,29 +18,32 @@ header{
 button{
     font-size: 20px;
 }
-.saludo-box{
-
+/*Saludo*/
+.saludoContenedor{
     padding: 200px;
     display: flex;
     flex-direction: row;
+    gap: 40px;
     margin: 20px;
 }
 
 .saludo{
-
-    display: flex;
+    padding: 10px;
     flex-direction: column;
     justify-content: center;
-    width: 30em;
+    width: 43em;
 }
 
-.proyectos{
+/*Proyecto*/
+.contenedorProyecto{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
 }
-#container{
+#cartaProyecto{
+    min-height: 352px;
+    width: 452px;
+    border: 1px solid black;
     padding: 20px;
-    margin: 2em;
-    height: 200px;
-    width: 40em;
 }

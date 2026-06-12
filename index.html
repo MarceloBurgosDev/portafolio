@@ -9,23 +9,47 @@
 <body>
     <header>
         <h4>Blog</h4>
-        <h4>Works</h4>
+        <a href="#sectionProyectos">
+            <h4>Proyectos</h4>
+        </a>
         <h4>Premios</h4>
+        <a href="#contactoContenedor">
+            Contacto
+        </a>
     </header>
-    <div class="saludo-box">
+    <!-- Sección de saludo -->
+    <section class="saludoContenedor">
         <div class="saludo">
             <h1>Hi, my name is Marcelo.</h1>
             <h1>Soy estudiante de ing. Informática.</h1>
             <p>Me encuentro en mi primer año de estudio en DuocUc. Pese a estudiar actualmente, poseo experiencia en algunos proyectos, usando tecnologías como JavaScript, Java, Springboot y MySQL. Últimamente he participado en torneos de programación, pretendo seguir participando.</p>
         </div>
-        <div>
-            <img src="/imagenes/frieren.jpg" alt="30px" width="60px">
+        <div class="saludo">
+            <img src="/imagenes/frieren.jpg" alt="60px" width="120px">
         </div>
-        
-    </div>
-    <div>
-        <div class="proyectos"> 
-            <div id="container">    
+    </section>
+    
+    <!-- Sección de reconocimientos -->
+    <section id="premios" class="premios">
+        <h2>Reconocimientos y premios</h2>
+        <div class="contenedor">
+            <div class="premio-card">
+                <div class="imagen-premio"> 
+                    <i></i>
+                </div>
+                <p>1r Lugar Nexus - DuocUC - 2026</p>
+                <p>Obtuve el primer lugar en el Torneo de Programación Nexus 2026. La competencia evaluó habilidades de resolución de problemas, lógica algorítmica y programación bajo presión de tiempo. Utilicé principalmente Python para desarrollar las soluciones y resolví además un desafío en Java.</p>
+            </div>
+
+        </div>
+
+    </section>
+    
+    <!--Sección de proyectos -->
+    <h2>Proyectos</h2>
+    <section id="sectionProyectos">
+        <div class="contenedorProyecto"> 
+            <div id="cartaProyecto">    
                 <h1>Dotfiles</h1>
                 <p>Este no es un proyecto en sí, pero si corresponde a mis archivos de configuración de archlinux con hyprland. En este github, encontrarás capturas de mi configuración (donde se configura: hyprland, waybar, hyprpaper, rofi, entre otros.), los archivos, readme, entre otros.</p>
                 <p>Tecnologías: ScriptBash, Lua, CSS </p>
@@ -34,28 +58,22 @@
                 </a>
              
             </div>
-            <div id="container">
+            <div id="cartaProyecto">
                 <p>chao</p>
             </div>
-        </div>
-    </div>
-
-    <section id="premios" class="premios">
-        <div class="contenedor">
-            <h2>Reconocimientos y premios</h2>
-            <div class="premio-card">
-                <div class="imagen-premio"> 
-                    <i></i>
-                </div>
-                <p>1r Lugar Nexus - DuocUC</p>
-                <p>2026</p>
-                <p>Obtuve el primer lugar en el Torneo de Programación Nexus 2026. La competencia evaluó habilidades de resolución de problemas, lógica algorítmica y programación bajo presión de tiempo. Utilicé principalmente Python para desarrollar las soluciones y resolví además un desafío en Java.</p>
-                
+            <div id="cartaProyecto">
+                <p>holi</p>
             </div>
-
         </div>
-
     </section>
+    <!-- Sección de contacto y redes-->
+     <h2>Contactos</h2>
+     <section id="contactoContenedor">
+        <div class="contactos">
+            <a href="https://github.com/MarceloBurgosDev" target="_blank">Github</a>
+            <a href="www.linkedin.com/in/marcelo-burgos-dev" target="_blank">Linkedinzz</a>
+        </div>
+     </section>
     
 </body>
 </html>
